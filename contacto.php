@@ -6,8 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['your-email'];
     $message = $_POST['message'];
 
-    // Configura los datos del correo electrónico
-    $to = "ex3m.sgo@gmail.com"; // Cambia esto por tu dirección de correo electrónico
+    // Configurar los datos del correo electrónico
+    $to = "ex3m.sgo@gmail.com", "benjaguerrero23@gmail.com"; 
     $subject = "Mensaje de contacto desde el sitio web de EX3M";
     $body = "Nombre: $name\nEmail: $email\n\n$message";
 
