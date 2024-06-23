@@ -710,7 +710,8 @@ h1 span{
   overflow:hidden;
   margin-top:50px;
   text-align:center;
-}
+  filter: grayscale(100%);
+  }
 
 .partners .logo img{
   opacity:0.5;
