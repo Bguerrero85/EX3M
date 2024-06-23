@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Configurar los destinatarios del correo electrónico (separados por coma si son varios)
-    $to = "ex3m.sgo@gmail.com, benjaguerrero23@gmail.com"; 
+    $to = "ex3m.sgo@gmail.com"; 
     $subject = "Mensaje de contacto desde el sitio web de EX3M";
     $body = "Nombre: $name\nEmail: $email\n\n$message";
 
